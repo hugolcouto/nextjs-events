@@ -1,0 +1,38 @@
+.cardListItem {
+	background-color: var(--light);
+	display: grid;
+	grid-template-columns: 220px auto;
+	border-radius: 4px;
+	box-shadow: var(--default-shadow);
+	overflow: hidden;
+	transition: 0.3s;
+
+	&:hover {
+		filter: brightness(1.1);
+		transition: 0.3s;
+	}
+
+	& img {
+		width: 100%;
+		height: 180px;
+		object-fit: cover;
+	}
+
+	& article {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+		padding: 14px;
+		& header {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	& nav {
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+	}
+}

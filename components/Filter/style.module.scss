@@ -1,0 +1,25 @@
+.filter {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	background-color: var(--mid-light);
+	padding: 15px 20px;
+	box-shadow: var(--default-shadow);
+	border-radius: 4px;
+}
+
+.formContainer {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.select {
+	min-width: 160px;
+	padding: 8px 12px;
+	background-color: var(--light);
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+}
