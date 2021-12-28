@@ -2,8 +2,13 @@ import style from './style.module.scss';
 import { Button } from 'components/Button';
 
 export const Filter = () => {
+	const handleFilterForm = (e) => {
+		e.preventDefault();
+		console.log('filter')
+	}
+
 	return (
-		<form action="" className={style.filter}>
+		<form onSubmit={e => handleFilterForm(e)} className={style.filter}>
 			<div className={style.formContainer}>
 				<label htmlFor="">ano</label>
 				<select name="" id="" className={style.select}>

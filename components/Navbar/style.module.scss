@@ -27,8 +27,10 @@
 }
 
 .logo {
-	color: var(--primary);
 	font-size: 28px;
+	background: linear-gradient(30deg, var(--primary), var(--secondary));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .allEventsLink {

@@ -7,7 +7,9 @@
 		"module": "CommonJS",
 		"baseUrl": ".",
 		"paths": {
-			"components/*": ["./components/*"]
+			"components/*": ["./components/*"],
+			"styles/*": ["./styles/*"],
+			"utils/*": ["./utils/*"]
 		}
 	}
 }
